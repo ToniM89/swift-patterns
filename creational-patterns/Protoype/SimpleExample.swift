@@ -1,5 +1,13 @@
 import Foundation
 
+/*
+The prototype pattern favor cloning over initialization
+clones are standalone properties that means that changing there props have no effect on other
+object wehere there were cloned from
+
+Value types like structs already copy so need to do extra stuff
+*/
+
 // For structs there is no need to do extra stuff because
 // struct are value types
 // for refernce types we need to implement the NSCoying protocoll
